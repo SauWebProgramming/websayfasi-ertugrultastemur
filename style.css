@@ -1,0 +1,64 @@
+body{
+    background-color: #fff;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    height: 80px;
+    backdrop-filter: blur(2px);
+    position : fixed !important;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    width: 100%;
+    padding: 0 20px;
+}
+nav a{
+    color: white;
+}
+nav a:hover{
+    color: blue;
+}
+nav li a{
+    color: white !important;
+}
+nav li a:hover{
+    color: blue !important;
+}
+.content{
+    position: relative;
+    width: 100%;
+    height: 165vh;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;  
+    flex-direction: column;
+    text-align: center;
+
+}
+.content .imagebox{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(17,17,17,255);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content img{
+    border-radius:20px;
+    width: 50%;
+    position: relative;
+}
+.content h1{
+    font-weight: bolder;
+    font-size: 4em;
+}
+.content p{
+    padding: 0 50px !important;
+    font-size: 1.6em;
+    width: 70%;
+}
+
+
